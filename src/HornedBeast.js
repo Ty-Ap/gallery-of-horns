@@ -5,13 +5,12 @@ import React from 'react';
 class HornedBeast extends React.Component{
   render(){
     return <>
-    <h2>Title of Animal</h2>
-    <img src="" alt="thisAlt" title="thisTitle"></img>
-    <p>descriptions and stuff</p>
-    <>{this.props.title}</>
-    <>{this.props.imageUrl}</>
-    <>{this.props.description}</>
+    <h2>{this.props.title}</h2>
+    <img src={this.props.image_url} alt={this.props.alt} title={this.props.title}></img>
+    <p>{this.props.description}</p>
+    
     </>
+
   }
 }
 
