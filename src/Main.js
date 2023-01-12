@@ -1,6 +1,7 @@
 import React from 'react';
 import HornedBeast from './HornedBeast';
 import data from './horn.json';
+// eslint-disable-next-line no-unused-vars
 import css from './main.css';
 
 
