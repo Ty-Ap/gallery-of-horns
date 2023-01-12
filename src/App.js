@@ -2,8 +2,10 @@ import React from 'react';
 import Header from './Header';
 import Main from './Main';
 import Footer from './Footer';
-import Modal from 'react-bootstrap/Modal'
-import './HornedBeast';
+import SelectedBeast from './SelectedBeast';
+import { Card } from 'react-bootstrap';
+import './sortedBeast';
+import SortedBeast from './sortedBeast';
 
 
 
@@ -15,7 +17,7 @@ class App extends React.Component{
     super(props);
     this.state= {
       showModal : false,
-      selectedBeast : ''
+      selectedBeast : '',
     }
 
   }
@@ -23,7 +25,7 @@ class App extends React.Component{
   handleOpenModal =(image_url)=> {
     this.setState ({
       showModal :true,
-      selectedBeast : <img src={image_url} alt="description"></img>
+      selectedBeast : <Card.Img src={image_url} alt="description"></Card.Img>
     });
   }
 
@@ -40,12 +42,8 @@ class App extends React.Component{
       <>
       <Header/>
       <Main handleOpenModal={this.handleOpenModal}/>
-      <Modal show={this.state.showModal} onHide={this.handleCloseModal} >
-        <Modal.Header closeButton>
-          {this.state.selectedBeast}
-
-        </Modal.Header>
-      </Modal>
+      <SelectedBeast showModal={this.state.showModal} closeModal={this.handleCloseModal} selectedBeast={this.state.selectedBeast}/>
+      <SortedBeast/>
       <Footer/>
       </>
     )
