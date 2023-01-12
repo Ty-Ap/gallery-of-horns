@@ -17,15 +17,26 @@ Finish time: 630
 
 Actual time needed to complete: 15 minutes
 
-
 Number and name of feature: Bootstrap
 
-Estimate of time needed to complete: _____
+Estimate of time needed to complete: 45 mins
 
-Start time: _____
+Start time: 2pm
 
-Finish time: _____
+Finish time: 220pm
 
-Actual time needed to complete: _____
+Actual time needed to complete: 20mins
+
+
+
+Number and name of feature: Modals
+
+Estimate of time needed to complete: 
+
+Start time:
+
+Finish time: 
+
+Actual time needed to complete: 
 
 
