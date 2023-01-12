@@ -31,12 +31,12 @@ Actual time needed to complete: 20mins
 
 Number and name of feature: Modals
 
-Estimate of time needed to complete: 
+Estimate of time needed to complete: 2 hrs
 
-Start time:
+Start time: 230
 
-Finish time: 
+Finish time: 330
 
-Actual time needed to complete: 
+Actual time needed to complete: 1 hr ~ didnt complete the exact way specced and not quite how i wanted.
 
 
