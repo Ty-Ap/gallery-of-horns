@@ -1,0 +1,31 @@
+main{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: 3% space-between;
+  justify-content: center;
+  background-color:skyblue ;
+}
+
+.card-img{
+  display:flex;
+  flex-wrap: wrap;
+  min-height: 40%;
+  max-height: 40%;
+
+}
+
+.Card-body{
+  background-color: skyblue;
+  
+}
+
+div{
+  background-color: skyblue;
+}
+
+p{
+  background-color: skyblue;
+}
+.button{
+  background-color: skyblue;
+}
