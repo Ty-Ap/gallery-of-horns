@@ -13,7 +13,7 @@ class Main extends React.Component{
     <main>
       {data.map((beast) => {
         return <HornedBeast _id={beast._id} name={beast.name} image_url={beast.image_url} description={beast.description} 
-        keyword={beast.keyword} hornNum={beast.horns} title={beast.title} key={beast.keyword}/>
+        keyword={beast.keyword} hornNum={beast.horns} title={beast.title} key={beast.keyword} handleOpenModal={this.props.handleOpenModal}/>
       }
       )}
     </main>
