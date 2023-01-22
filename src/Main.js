@@ -5,6 +5,7 @@ import './main.css';
 
 
 
+
 // The Main component should pass props for the title, image and description to each HornedBeast component. You will find this information in the provided JSON file.
 
 class Main extends React.Component{
@@ -12,8 +13,15 @@ class Main extends React.Component{
     return <>
     <main>
       {data.map((beast) => {
-        return <HornedBeast _id={beast._id} name={beast.name} image_url={beast.image_url} description={beast.description} 
-        keyword={beast.keyword} hornNum={beast.horns} title={beast.title} key={beast.keyword} handleOpenModal={this.props.handleOpenModal}/>
+        return <HornedBeast 
+        _id={beast._id}
+         name={beast.name} 
+         image_url={beast.image_url} 
+         description={beast.description}
+         hornNum={beast.horns} 
+         title={beast.title} 
+         key={beast._id} 
+         handleOpenModal={this.props.handleOpenModal}/>
       }
       )}
     </main>
